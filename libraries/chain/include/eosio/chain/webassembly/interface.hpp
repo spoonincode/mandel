@@ -376,6 +376,11 @@ namespace webassembly {
          */
          void assert_ripemd160(legacy_span<const char> data, legacy_ptr<const fc::ripemd160> hash_val) const;
 
+         int32_t verify_rsa_sha256_sig(legacy_span<const char> message,
+                              legacy_span<const char> signature,
+                              legacy_span<const char> exponent,
+                              legacy_span<const char> modulus);
+
          /**
           * Hashes data using SHA256.
           *

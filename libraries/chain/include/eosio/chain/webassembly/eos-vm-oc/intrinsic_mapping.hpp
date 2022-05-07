@@ -145,6 +145,7 @@ inline constexpr auto get_intrinsic_table() {
       "env.assert_sha1",
       "env.assert_sha512",
       "env.assert_ripemd160",
+      "env.verify_rsa_sha256_sig",
       "env.sha1",
       "env.sha256",
       "env.sha512",
